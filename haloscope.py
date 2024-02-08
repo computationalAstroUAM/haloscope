@@ -1,4 +1,5 @@
 from sklearn.preprocessing import QuantileTransformer
+import numpy as np
 class ConditionalMultiVariateGaussian(object):
     def __init__(self, A = np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,-1,1],[0,0,0,-1]]),b=np.array([0,0,0,0,-1])):        
         self.mux = None
