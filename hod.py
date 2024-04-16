@@ -30,7 +30,7 @@ class HOD(object):
 		use to obtain fa,fb,fc,fd to be used with the HOD
 		"""     
 		rank = np.zeros([len(haloproperty)])
-		massbin = np.logspace(np.log10(halomass.min()),np.log10(halomass.max()),20)
+		massbin = np.logspace(np.log10(halomass.min()),np.log10(halomass.max()),25)
 		for i in range(len(massbin)-1):
 			select = (halomass>massbin[i])&(halomass<massbin[i+1])
 			x = haloproperty[select]
@@ -43,3 +43,6 @@ class HOD(object):
 		"""
 		sel = np.random.binomial(1, p, size=[1,len(p)])
 		return sel.flatten().astype(bool)
+
+	def N_sat_stand(self,M,M_cut,M1,alpha):
+		return ((M-M_cut)/M1)**(alpha)
