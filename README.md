@@ -1,7 +1,7 @@
-# haloscope
-HALOSCOPE - Halo PropertieS having Covariance Preserved with Environment
 
-# ConditionalMultiVariateGaussian
+# HALOSCOPE - Halo PropertieS having Covariance Preserved with Environment
+
+## ConditionalMultiVariateGaussian
 
 This repository contains the `ConditionalMultiVariateGaussian` class, a model for predicting high-resolution dark matter halo properties conditioned on their local density environments. The model leverages conditional multivariate Gaussian modeling and supports customizable linear constraints on predictions. 
 ---
