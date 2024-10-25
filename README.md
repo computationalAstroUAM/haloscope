@@ -24,6 +24,7 @@ If you use this code, please cite the following paper:
 To use the `ConditionalMultiVariateGaussian` class, clone this repository and import it into your project as follows:
 ```python
 from haloscope import ConditionalMultiVariateGaussian
+```
 
 Ensure that you have the necessary dependencies installed:
 ```bash
@@ -31,7 +32,7 @@ pip install numpy
 pip intall sklearn
 ```
 
-## Usage Example
+## Usage Example (for enhancing dark matter halo resolution in simulations)
 
 Here’s an example script demonstrating how to use the `ConditionalMultiVariateGaussian` class to predict high-resolution properties of dark matter halos based on their local density environments. In this setup:
 - **x_train** and **y_train** represent the local density environment and high-resolution halo properties from a high-resolution simulation.
