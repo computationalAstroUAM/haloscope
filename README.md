@@ -1,7 +1,13 @@
 
 # HALOSCOPE - Halo PropertieS having Covariance Preserved with Environment
 
+## Citation
 
+If you use this code, please cite the following paper:
+
+> The multi-dimensional halo assembly bias can be preserved when enhancing halo properties with HALOSCOPE, [Ramakrishnan et al., 2024](https://arxiv.org/abs/2410.07361)
+
+## ConditionalMultiVariateGaussian
 This repository contains the `ConditionalMultiVariateGaussian` class, a model for predicting high-resolution dark matter halo properties conditioned on their local density environments. The model leverages conditional multivariate Gaussian modeling and supports customizable linear constraints on predictions. 
 ---
 
@@ -11,11 +17,6 @@ This repository contains the `ConditionalMultiVariateGaussian` class, a model fo
 - **Linear Constraints**: Ensures generated predictions meet specified linear constraints.
 - **Random Sampling**: Supports probabilistic predictions by drawing samples from the conditional distribution.
 
-## Citation
-
-If you use this code, please cite the following paper:
-
-> The multi-dimensional halo assembly bias can be preserved when enhancing halo properties with HALOSCOPE, [Ramakrishnan et al., 2024](https://arxiv.org/abs/2410.07361)
 
 ---
 
