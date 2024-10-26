@@ -76,8 +76,8 @@ print("Predicted high-resolution properties for low-resolution halos:", y_pred)
 ### `ConditionalMultiVariateGaussian(A=None, b=None)`
 
 #### Parameters
-- **A** (`np.array`, optional): Matrix defining linear constraints on predictions. Default is `None` (no constraints).
-- **b** (`np.array`, optional): Vector for constraints that predictions should meet. Default is `None`.
+- **A** (`np.array`, optional): Matrix defining linear constraints on predictions. 
+- **b** (`np.array`, optional): Vector for constraints that predictions should meet. Default for **A** and **b** is a set of constraints for the dark matter halo properties described by equation 10 in [Ramakrishnan et al., 2024](https://arxiv.org/abs/2410.07361) .
 
 ### Methods
 
