@@ -73,7 +73,7 @@ print("Predicted high-resolution properties for low-resolution halos:", y_pred)
 
 ## Class Documentation
 
-### `ConditionalMultiVariateGaussian(A=None, b=None)`
+### `ConditionalMultiVariateGaussian(A=A, b=b)`
 
 #### Parameters
 - **A** (`np.array`, optional): Matrix defining linear constraints on predictions. 
