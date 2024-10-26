@@ -44,7 +44,7 @@ import numpy as np
 from haloscope import ConditionalMultiVariateGaussian 
 
 # Initialize the ConditionalMultiVariateGaussian model without constraints
-cg = ConditionalMultiVariateGaussian(A=None, b=None)
+cg = ConditionalMultiVariateGaussian(A=A, b=b)
 
 # Generate synthetic data for training and testing as an example
 
